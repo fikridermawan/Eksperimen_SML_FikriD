@@ -17,6 +17,8 @@ jobs:
   preprocessing:
     name: Run Preprocessing Pipeline
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
